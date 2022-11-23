@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  background-image: url("../../assec/img/Rectangle9.png");
+  position: absolute;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 999px;
+  top: -3px;
+  z-index: -2;
+}
+header .navbar {
+  z-index: -1;
+  justify-content: center;
+  text-decoration: none;
+  font-style: none;
+  list-style: none;
+}
+header .navbar .navbar_ul {
+  display: flex;
+  justify-content: space-between;
+}
+header .navbar .navbar_ul .baslangicul {
+  display: flex;
+  justify-items: flex-start;
+  font-size: 20px;
+  justify-content: space-between;
+  gap: 10%;
+  align-items: center;
+}
+header .navbar .navbar_ul .baslangicul li a {
+  text-decoration: none;
+  color: white;
+}
+header .navbar .navbar_ul .sonul {
+  justify-content: space-between;
+  font-size: 50px;
+  color: white;
+  display: flex;
+}
+header .header {
+  margin-top: 200px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+header .header h1 {
+  width: 680px;
+  text-align: center;
+  color: white;
+  font-size: 74px;
+  font-family: "Graphik";
+  font-style: normal;
+  line-height: 84px;
+}
+header .header h4 {
+  width: 650px;
+  text-align: center;
+  color: white;
+  font-family: "Graphik";
+  font-style: normal;
+  font-size: 28px;
+}
+header .header .btn1 {
+  margin-top: 50px;
+  height: 52px;
+  width: 236px;
+  font-size: 25px;
+  background: #2091F9;
+  border-radius: 35px;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border: 0;
+  color: white;
+}/*# sourceMappingURL=main.css.map */

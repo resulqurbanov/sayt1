@@ -1,0 +1,100 @@
+header {
+    background-image: url('../../assec/img/Rectangle9.png');
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 999px;
+    top: -3px;
+
+    z-index: -2;
+
+    .navbar {
+        z-index: -1;
+        justify-content: center;
+        text-decoration: none;
+        font-style: none;
+        list-style: none;
+
+        .navbar_ul {
+            display: flex;
+            justify-content: space-between;
+
+            .baslangicul {
+
+
+                display: flex;
+                justify-items: flex-start;
+                font-size: 20px;
+                justify-content: space-between;
+                gap: 10%;
+                align-items: center;
+
+                li {
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+
+            .sonul {
+                justify-content: space-between;
+                font-size: 50px;
+                color: white;
+                display: flex;
+              
+            }
+        }
+
+
+
+    }
+
+    .header {
+        margin-top: 200px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+
+
+        h1 {
+            width: 680px;
+            text-align: center;
+            color: white;
+            font-size: 74px;
+            font-family: 'Graphik';
+            font-style: normal;
+            line-height: 84px;
+
+
+        }
+
+        h4 {
+            width: 650px;
+            text-align: center;
+            color: white;
+            font-family: 'Graphik';
+            font-style: normal;
+            font-size: 28px;
+        }
+
+        .btn1 {
+            margin-top: 50px;
+            height: 52px;
+            width: 236px;
+            font-size: 25px;
+            background: #2091F9;
+            border-radius: 35px;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            border: 0;
+            color: white;
+        }
+    }
+
+
+}
